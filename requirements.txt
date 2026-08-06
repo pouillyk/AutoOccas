@@ -1,6 +1,8 @@
 pandas
 matplotlib
-scikit-learn
+sklearn
 numpy
 streamlit
 joblib
+warnings
+datetime
