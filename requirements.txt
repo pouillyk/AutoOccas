@@ -1,0 +1,8 @@
+pandas
+matplotlib
+sklearn
+numpy
+streamlit
+joblib
+warnings
+datetime
