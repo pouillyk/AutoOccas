@@ -36,7 +36,7 @@ Several regression algorithmes tried :
 
 ## Results & Insights
 
-![Feature Importance](images/Feature_importance.png)
+![Feature Importance](images/Features_importance.png)
 
 * **Year of the model, age and mileage** Obviously the model of the car is the most important feature on the price variation (60%). The year of the model, the age of the car and the mileage represent almost the 40% remaining. 
 
