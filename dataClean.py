@@ -32,15 +32,20 @@ kmMax = 160000
 df.loc[df['Usage']>=kmMax, :]
 df = df.drop(df[df.Usage >= kmMax].index)
 #Convert the "Carburant" column to int to be included in the model
-df['IntCarb'] = df['Carburant']
-CarbArr=df['Carburant'].unique()
-for i, carb in enumerate(CarbArr):
-    df['IntCarb'].loc[df['IntCarb']==carb]=i
+CarbArr = df['Carburant'].unique()
+carb_map = {carb: i for i, carb in enumerate(CarbArr)}
+df['IntCarb'] = df['Carburant'].map(carb_map)
 #Convert the "Modele" column to int to be included in the model
-df['IntMod'] = df['Modele']
-ModArr=df['Modele'].unique()
-for i, mod in enumerate(ModArr):
-    df['IntMod'].loc[df['IntMod']==mod]=i
+ModArr = df['Modele'].unique()
+mod_map = {mod: i for i, mod in enumerate(ModArr)}
+df['IntMod'] = df['Modele'].map(mod_map)
+
+
+
+# Encodage de 'Modele'
+ModArr = df['Modele'].unique()
+mod_map = {mod: i for i, mod in enumerate(ModArr)}
+df['IntMod'] = df['Modele'].map(mod_map)
 
 #Remove Tesla car other than electric type
 df = df.drop(df[(df.Marque =='Tesla') & (df.Carburant!='Electrique')].index)
