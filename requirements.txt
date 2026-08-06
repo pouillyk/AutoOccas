@@ -1,8 +1,8 @@
 pandas
 matplotlib
-sklearn
+sklearn==1.0
 numpy
-streamlit==1.0
+streamlit
 joblib
 warnings
 datetime
