@@ -2,7 +2,7 @@ pandas
 matplotlib
 sklearn
 numpy
-streamlit
+streamlit==1.0
 joblib
 warnings
 datetime
