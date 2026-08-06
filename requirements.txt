@@ -1,6 +1,6 @@
 pandas
 matplotlib
-sklearn==1.0
+sklearn==1.0.0
 numpy
 streamlit
 joblib
