@@ -38,7 +38,8 @@ Several regression algorithmes tried :
 
 ![Feature Importance](images/Features_importance.png)
 
-* **Year of the model, age and mileage** Obviously the model of the car is the most important feature on the price variation (60%). The year of the model, the age of the car and the mileage represent almost the 40% remaining. 
+* **Year of the model, age and mileage** Obviously the model of the car is the most important feature on the price variation (60%). The year of the model, the age of the car and the mileage represent almost the 40% remaining.
+* **Dataset bias** The prices indicated in the data seems overestimated based on personal experience. The origin of these values is not indicated. Furthermore, the dataset was lastly updated in 2024, and thus doe not take into account recent events yielded strong depreciation of the price of Diesel cars.
 
 
 ---
