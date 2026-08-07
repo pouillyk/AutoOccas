@@ -1,6 +1,6 @@
 # AutoOccas - Estimation & Prediction of Used Car price
 
-Streamlit app link under development
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://autooccas-z8nh4mysijavbyjsto5afu.streamlit.app/)
 
 ## Project
 This project was developed in an autodidact manner, without external constrain. All suggestion are welcome.
@@ -8,7 +8,8 @@ The aim of this project was to answer at two problematics of the used car market
 1. **Estimate the correct price :** Estimate if an add overestimates the car price
 2. **Anticipate the depreciation :** Predict the price of the car after 5 year the estimate the real usage cost of the car.
 
-**Interactive app :** Under development
+**Interactive app :** [Streamlit app](https://autooccas-z8nh4mysijavbyjsto5afu.streamlit.app/)
+
 
 ---
 
